@@ -1,5 +1,7 @@
 // @Title  mysql.go
 // @Description  Mysql初始化以及相关操作
+// @Author    2020-04-19
+// @Update    2020-04-19
 
 package db
 

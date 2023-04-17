@@ -1,10 +1,6 @@
 package db
 
-/**
- * @Author: Screw
- * @Date: 2021/1/8 11:42 下午
- * @Desc:
- */
+
 import (
 	"fmt"
 	"github.com/go-redis/redis"
