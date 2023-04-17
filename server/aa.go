@@ -155,6 +155,14 @@ func SqlI10(c *gin.Context) {
 	if value_rce != "" {
 		out, _ := exec.Command("ping", "-c 5", value_rce).CombinedOutput()
 		fmt.Println(out)
+		//fmt.Println(strings.Replace(string(out), "\n", "\\n", -1))
+		//結果をjsonにして送信
+		//outは[]byteなのでキャストしてからエスケープしてまたキャスト
+		//msg := []byte(fmt.Sprintf(`{"msg": "%s"}`, strings.Replace(string(out), "\n", "\\n", -1)))
+		//
+		//w.Header().Set("Content-Type", "application/json;charset=UTF-8")
+		//w.WriteHeader(http.StatusOK)
+		//w.Write(msg)
 	}
 }
 
