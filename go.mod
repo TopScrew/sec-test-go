@@ -6,7 +6,7 @@ require (
 	github.com/gin-gonic/gin v1.5.0
 	github.com/go-redis/redis v6.15.9+incompatible
 	gorm.io/driver/mysql v1.4.4
-	gorm.io/gorm v1.24.2
+	gorm.io/gorm v1.25.2
 )
 
 require (
